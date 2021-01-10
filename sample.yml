@@ -1,0 +1,3 @@
+- name: demo on pull
+  hosts: local host
+  debug: msg="Hello"
