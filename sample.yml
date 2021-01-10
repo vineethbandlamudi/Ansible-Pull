@@ -1,5 +1,4 @@
-- name: demo on pull
+- name: Demo
   hosts: localhost
   tasks:
-    debug:
-      msg: Hello 
+    - debug: msg="HELLO" 
